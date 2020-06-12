@@ -1,0 +1,29 @@
+
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+  }
+  .nav-link {
+    color: black;
+}
+
+.navbar {
+    background-color: white;
+}
+
+body {
+    background-image: url("../img/backgroundimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-info {
+    text-align: center;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    color: wheat;
+}

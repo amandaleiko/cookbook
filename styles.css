@@ -26,4 +26,23 @@ body {
     padding: 15px;
     margin: auto;
     color: wheat;
+    height: 100%;
+}
+
+.create {
+  text-align: center;
+  color: wheat;
+  border: solid wheat 2px;
+}
+
+
+.col {
+  color: wheat;
+  margin-top: 200px;
+}
+
+footer {
+  background: white;
+  text-align: center;
+  
 }

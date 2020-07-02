@@ -39,6 +39,9 @@ li {
   justify-content: center;
   align-items: center;
   align-content: space-between;
+  width: 100%;
+  border-bottom: solid 5px lightslategray;
+  border-width: 100%;
   
 }
 
@@ -69,13 +72,14 @@ height: 200px;
 }
 .col {
   color: lightslategray;
-  padding: 0 150px;
+  padding: 100px;
+ 
 }
 
 footer {
   background: lightslategray;
   text-align: center;
-margin-top: auto;
+  margin-top: auto;
 }
 
 .main-footer {

@@ -124,3 +124,117 @@ footer {
 .getstart {
   width: 300px;
 }
+
+/* contact page */
+
+.contactimg {
+  height: 500px;
+  width: 405px;
+  margin: auto;
+}
+
+.contactinfo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  text-align: center;
+  margin: auto;
+
+}
+
+/*log in*/
+
+.title {
+  text-align: center;
+  padding: 50px 0 20px;
+}
+
+.title h1 {
+  margin: 0;
+  padding: 0;
+  color: lightslategray;
+  text-transform: uppercase;
+  font-size: 36px;
+
+}
+
+.logincontainer {
+  width: 50%;
+  height: 400px;
+  background: lemonchiffon; 
+  margin: 0 auto;
+  border: 2px solid lightslategray;
+  box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+
+.logincontainer .left {
+  float: left;
+  width: 50%;
+  height: 400px;
+  background-size: cover;
+  background-image: url("img/cupcake.jpg");
+  box-sizing: border-box;
+}
+
+.logincontainer .right {
+  float: right;
+  width: 50%;
+  height: 400px;
+  box-sizing: border-box;
+
+}
+
+.formBox {
+  width: 100%;
+  padding: 80px 40px;
+  box-sizing: border-box;
+  height: 400px;
+
+}
+
+.formBox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.formBox input {
+  margin-bottom: 20px;
+  width: 100%;
+  }
+
+  .formBox input[type="text"],
+  .formBox input[type="Password"] 
+  {
+    border: none;
+    border-bottom:  2px solid lightslategray;
+    outline: none;
+    height: 40px;
+      }
+      .formBox input[type="text"]:focus,
+      .formBox input[type="Password"]:focus
+       {
+        border-bottom:  2px solid lightslategray; 
+      }
+  
+      .formBox input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        color: lightslategray;
+        background: #262626;
+        cursor: pointer;
+      }
+
+      .formBox input[type="submit"]:hover {
+        background: midnightblue;
+      }
+
+      .formBox a {
+        color: midnightblue;
+        font-size: 12px;
+        font-weight: bold;
+      }

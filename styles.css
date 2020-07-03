@@ -238,3 +238,87 @@ footer {
         font-size: 12px;
         font-weight: bold;
       }
+
+      /*sign up page*/
+
+     .signuppg {
+       margin: 0;
+       padding: 0;
+     }
+
+     .logincontainer .signupleft {
+      float: left;
+      width: 50%;
+      height: 400px;
+      background-size: cover;
+      background-image: url("img/cake.jpg");
+      box-sizing: border-box;
+    }
+
+    .logincontainer .signupright {
+      float: right;
+      width: 50%;
+      height: 400px;
+      box-sizing: border-box;
+    
+    }
+    .signupformBox input[type="Email"] 
+    {
+      border: none;
+      border-bottom:  2px solid lightslategray;
+      outline: none;
+      height: 40px;
+        }
+     
+        .signupformBox {
+          width: 100%;
+          padding: 3px 30px;
+          box-sizing: border-box;
+          height: 400px;
+        
+        }
+        
+        .signupformBox p {
+          margin: 0;
+          padding: 0;
+          font-weight: bold;
+          color: lightslategray;
+        }
+        
+        .signupformBox input {
+          margin-bottom: 20px;
+          width: 100%;
+          }
+        
+          .signupformBox input[type="text"],
+          .signupformBox input[type="Password"] 
+          {
+            border: none;
+            border-bottom:  2px solid lightslategray;
+            outline: none;
+            height: 40px;
+              }
+              .signupformBox input[type="text"]:focus,
+              .signupformBox input[type="Password"]:focus
+               {
+                border-bottom:  2px solid lightslategray; 
+              }
+          
+              .signupformBox input[type="submit"] {
+                border: none;
+                outline: none;
+                height: 40px;
+                color: lightslategray;
+                background: #262626;
+                cursor: pointer;
+              }
+        
+              .signupformBox input[type="submit"]:hover {
+                background: midnightblue;
+              }
+        
+              .signupformBox a {
+                color: midnightblue;
+                font-size: 12px;
+                font-weight: bold;
+              }

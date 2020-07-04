@@ -125,10 +125,18 @@ footer {
 
 /* contact page */
 
+.contactpage {
+  display: flex;
+}
+
+.contactform {
+  margin: 100px 100px;
+}
+
 .contactimg {
   height: 500px;
   width: 405px;
-  margin: auto;
+  margin: 100px;
 }
 
 .contactinfo {

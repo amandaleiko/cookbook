@@ -116,14 +116,12 @@ footer {
   margin-top: 100px;
 }
 
-.content {
+.cookbookcontainer {
   display: flex;
   justify-content: space-around;
 }
 
-.getstart {
-  width: 300px;
-}
+
 
 /* contact page */
 

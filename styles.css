@@ -110,13 +110,19 @@ footer {
 
 /*cookbook page */
 
-.recipe {
-  height: 500px;
-  width: 730px;
-  background: lavender;
-  padding: 10px;
-  text-align: center;
+.cookbookcontainer {
+  display: flex;
 }
+
+.recipe {
+  height: auto;
+  width: 50%;
+  background: lavender;
+  
+  text-align: center;
+  flex: 1;
+}
+
 
 .recipe h1 {
   background: rgba(16, 153, 199, 0.74);
@@ -136,8 +142,9 @@ footer {
   width: 800px;
 }
 
-
-
+.recipelink {
+  display: flex;
+}
 
 
 /* contact page */
@@ -345,3 +352,46 @@ footer {
                 font-size: 12px;
                 font-weight: bold;
               }
+
+
+
+  /*recipe pages*/
+
+  .recipecontainer {
+    text-align: center;
+  }
+
+ .recipecontainer u {
+    color: lightslategray;
+ }
+
+ .recipecontainer h2 {
+   color: lightslategray;
+ }
+
+ .recipecontainer img {
+   height: 300px;
+   width: 300px;
+ }
+
+ .verticallist ol {
+   width: 200px;
+  padding: 0;
+   margin: auto;
+ }
+
+ .instructionlist {
+   width: 500px;
+ }
+
+ .recipeflex {
+   display: flex;
+   justify-content: center;
+ }
+
+.print button {
+  width:200px;
+  float: right;
+  border: solid 3px black;
+  background-color: rgba(16, 154, 179, 0.842);
+}

@@ -93,41 +93,13 @@ footer {
 
  /*about page*/
 
- .aboutimg {
-   height: 300px;
-   width: 300px;
-   margin: 30 auto;
- }
-
-.about {
-  text-align: center;
-  margin: 0 200px;
-}
-
-.about h1 {
-  border-bottom: 3px solid lightslategray;
-}
-
+ 
 /*cookbook page */
 
-.cookbookcontainer {
-  display: flex;
-}
-
-.recipe {
-  height: auto;
-  width: 50%;
-  background: lavender;
-  
-  text-align: center;
-  flex: 1;
-}
 
 
-.recipe h1 {
-  background: rgba(16, 153, 199, 0.74);
-  border: solid 3px lightslategray;
-}
+
+
 
 .imgbtm img {
   height: 150px;

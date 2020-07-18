@@ -21,6 +21,11 @@ ol li {
 
 li {
   padding:0 1em;
+  
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav {
@@ -366,4 +371,51 @@ footer {
   float: right;
   border: solid 3px black;
   background-color: rgba(16, 154, 179, 0.842);
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+}
+
+#toggle {
+  display: none;
+}
+
+/*media queries */
+
+@media all and (max-width: 500px) {
+  .photorunner {
+    display: none;
+  }
+  .rowpullbottom {
+    flex-wrap: wrap;
+  }
+
+  label {
+    display: block;
+    float: right;
+    cursor: pointer;
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .menu li {
+    display: block;
+    border-bottom: 1px solid lightslategray;
+    margin: 0;
+    height: 50px;
+    padding-top: 20px;
+  }
+
+  #toggle:checked ~ .menu {
+    display: block;
+  }
+
 }

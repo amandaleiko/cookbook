@@ -40,3 +40,9 @@ section h2 {
 section p {
     font-size: 1.2em;
 }
+
+/*media queries */
+
+@media all and (max-width: 500px) {
+  
+}

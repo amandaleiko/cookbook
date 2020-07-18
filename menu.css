@@ -201,3 +201,14 @@ transform: rotate(225deg);
     text-decoration: none;
     transition: color 0.4s ease;
 }
+
+@media all and (max-width: 500px) {
+    .showcase .showcase-inner{
+        background-color: none;
+        position: absolute;
+    }
+
+    :root {
+        display: none;
+    }
+}

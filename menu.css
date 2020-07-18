@@ -208,7 +208,4 @@ transform: rotate(225deg);
         position: absolute;
     }
 
-    :root {
-        display: none;
-    }
-}
+  

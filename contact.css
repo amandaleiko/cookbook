@@ -48,9 +48,9 @@ body {
 }
 
 .txtb input, .txt textarea{
-    width: 100%;
+    width: 50%;
     border: none;
-    background: none;
+    background: lightskyblue;
     outline: none;
     font-size: 18px;
     margin-top: 6px;
@@ -66,3 +66,9 @@ body {
     margin-top: 8px;
     width: 100%;
 }
+
+textarea {
+    height: 200px;
+    width: 300px;
+}
+

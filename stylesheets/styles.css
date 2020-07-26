@@ -19,9 +19,9 @@ ol li {
   align-items: flex-start;
 }
 
-li {
+li a{
   padding:0 1em;
-  
+  color: lightslategray;
 }
 
 a {
@@ -378,12 +378,6 @@ footer {
   padding: 0;
 }
 
-.menu li a {
-  color: white;
-}
-
-
-
 label {
   margin: 0 40px 0 0;
   font-size: 26px;
@@ -426,6 +420,10 @@ label {
     height: 50px;
     padding-top: 20px;
     background: lightslategray;
+  }
+
+  .menu a {
+    color: white;
   }
 
   .col {

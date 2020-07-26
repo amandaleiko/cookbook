@@ -180,7 +180,7 @@ footer {
   width: 50%;
   height: 400px;
   background-size: cover;
-  background-image: url("img/cupcake.jpg");
+  background-image: url("../img/cupcake.jpg");
   box-sizing: border-box;
 }
 
@@ -257,7 +257,7 @@ footer {
       width: 50%;
       height: 400px;
       background-size: cover;
-      background-image: url("img/cake.jpg");
+      background-image: url("../img/cake.jpg");
       box-sizing: border-box;
     }
 

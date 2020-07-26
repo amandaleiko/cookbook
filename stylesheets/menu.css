@@ -30,7 +30,7 @@ body {
 
 .showcase:before {
     content:'';
-    background: url('img/irene-kredenets-sV0KXYrb-5s-unsplash.jpg') no-repeat center center/cover;
+    background: url('../img/irene-kredenets-sV0KXYrb-5s-unsplash.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -210,4 +210,4 @@ transform: rotate(225deg);
         display: none;
     }
 
-
+}

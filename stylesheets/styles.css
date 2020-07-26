@@ -372,6 +372,18 @@ footer {
   background-color: rgba(16, 154, 179, 0.842);
 }
 
+/*hamburger menu */
+
+.menu ol {
+  padding: 0;
+}
+
+.menu li a {
+  color: white;
+}
+
+
+
 label {
   margin: 0 40px 0 0;
   font-size: 26px;
@@ -393,6 +405,8 @@ label {
     flex-wrap: wrap;
   }
 
+
+
   label {
     display: block;
     float: right;
@@ -407,10 +421,11 @@ label {
 
   .menu li {
     display: block;
-    border-bottom: 1px solid lightslategray;
+    border-bottom: 1px solid white;
     margin: 0;
     height: 50px;
     padding-top: 20px;
+    background: lightslategray;
   }
 
   .col {
@@ -420,7 +435,6 @@ label {
 
   #toggle:checked ~ .menu {
     display: grid;
-    grid-template-columns: 70% 30%;
   }
 
   .logincontainer {

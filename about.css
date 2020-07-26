@@ -43,6 +43,34 @@ section p {
 
 /*media queries */
 
+@media all and (max-width: 800px) and (min-width: 501px) {
+    .header {
+        height: 50vh;
+    }
+
+section h2 {
+       font-size: 2em;
+   } 
+
+.mqcolor {
+    background: paleturquoise;
+} 
+
+section {
+    padding: 0 20 10 20;
+}
+}
+
 @media all and (max-width: 500px) {
-  
+    #bg {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
 }

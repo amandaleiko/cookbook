@@ -24,7 +24,7 @@ body {
 .showcase {
     background-color: var(--primary-color);
     color: black;
-    height: 100vh;
+    padding: 50px 0;
     position: relative;
 }
 
@@ -45,7 +45,6 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100%;
 }
 
 .showcase h1 {
@@ -205,6 +204,10 @@ transform: rotate(225deg);
 @media all and (max-width: 500px) {
     .showcase .showcase-inner{
         background-color: none;
-        position: absolute;
     }
+
+    .showcase:before {
+        display: none;
+    }
+
 

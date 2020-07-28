@@ -22,7 +22,7 @@ and generate a grocery list based on the recipes that you have selected.
 #  Share
 This is a coming soon function to share your recipes via email or also to other members on The Family Cookbook.
 
-#contact
+#  contact
 
 simple contact form to include user's name, email, phone number and a brief message. 
 

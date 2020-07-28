@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Asap', sans-serif;
     line-height: 1.4;
@@ -150,7 +151,7 @@ transform: rotate(225deg);
 
 .menu-wrap .toggler:checked ~ .menu > div >div {
     opacity: 1;
-    transtion: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
 }
 
 .menu-wrap .menu {
@@ -200,6 +201,8 @@ transform: rotate(225deg);
     text-decoration: none;
     transition: color 0.4s ease;
 }
+/*media query */
+
 
 @media all and (max-width: 500px) {
     .showcase .showcase-inner{
